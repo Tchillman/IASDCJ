@@ -30,9 +30,9 @@ export function Sobre() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-[#003A70] opacity-90 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#003A70] to-[#2f557f] opacity-90 z-10" />
         <ImageWithFallback
-          src="https://images.unsplash.com/photo-1762474343462-fbb221e36c48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaHVyY2glMjBjb21tdW5pdHklMjBzZXJ2aWNlfGVufDF8fHx8MTc2MzI5MzkwNnww&ixlib=rb-4.1.0&q=80&w=1080"
+          src="/src/assets/ministeriosbanner.jfif"
           alt="Comunidade da igreja"
           className="absolute inset-0 w-full h-full object-cover"
         />

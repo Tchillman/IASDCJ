@@ -11,9 +11,9 @@ export function Ministerios() {
       icon: Users,
       color: '#00C2D1',
       description: 'Programas e atividades voltados para o crescimento espiritual e social dos jovens.',
-      image: 'https://images.unsplash.com/photo-1588033527872-330aa4b5fe36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMHBlb3BsZSUyMGNodXJjaCUyMHdvcnNoaXB8ZW58MXx8fHwxNzYzMjkzOTA1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: '/src/assets/ministerioJovem.jfif',
       activities: [
-        'Reuniões semanais de jovens',
+        'Aos domingos: Encontros de jovens das 8h às 12h',
         'Grupos de estudo bíblico',
         'Eventos sociais e recreativos',
         'Projetos de evangelismo',
@@ -25,9 +25,9 @@ export function Ministerios() {
       icon: Music,
       color: '#FFC145',
       description: 'Coral, grupos vocais e instrumentais que ministram através da música.',
-      image: 'https://images.unsplash.com/photo-1745852738233-bbd0df06c279?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaHVyY2glMjBjaG9pciUyMHNpbmdpbmd8ZW58MXx8fHwxNzYzMjkwODU1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: '/src/assets/musica.jfif',
       activities: [
-        'Ensaios do coral - Quintas 19h',
+        'Ensaios do coral - Terças e Quintas 17h às 19h',
         'Grupo de louvor juvenil',
         'Aulas de instrumentos musicais',
         'Apresentações especiais',
@@ -39,7 +39,7 @@ export function Ministerios() {
       icon: BookOpen,
       color: '#1E90FF',
       description: 'Estudo sistemático da Bíblia aos sábados pela manhã.',
-      image: 'https://images.unsplash.com/photo-1511551348638-75d95b7d416e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaWJsZSUyMHN0dWR5JTIweW91dGh8ZW58MXx8fHwxNzYzMjkzOTA1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: '/src/assets/escolasabatina01.jfif',
       activities: [
         'Classes para todas as idades',
         'Lições trimestrais',
@@ -53,7 +53,7 @@ export function Ministerios() {
       icon: Heart,
       color: '#FF6B6B',
       description: 'Projetos de evangelismo e serviço à comunidade.',
-      image: 'https://images.unsplash.com/photo-1762474343462-fbb221e36c48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaHVyY2glMjBjb21tdW5pdHklMjBzZXJ2aWNlfGVufDF8fHx8MTc2MzI5MzkwNnww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: '/src/assets/solidariedade.jfif',
       activities: [
         'Distribuição de alimentos',
         'Visitas a hospitais e lares',
@@ -81,7 +81,7 @@ export function Ministerios() {
       icon: Activity,
       color: '#27AE60',
       description: 'Promoção da saúde física, mental e espiritual.',
-      image: 'https://images.unsplash.com/photo-1437603568260-1950d3ca6eab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcmF5aW5nJTIwaGFuZHN8ZW58MXx8fHwxNzYzMjkzOTA2fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: '/src/assets/saude.jfif',
       activities: [
         'Palestras sobre vida saudável',
         'Grupos de caminhada',
@@ -95,7 +95,8 @@ export function Ministerios() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-[#003A70] to-[#1E90FF] text-white py-20">
-        <div className="container mx-auto px-4 text-center">
+          
+        <div className="container mx-auto px-4 text-center">       
           <h1 className="text-5xl md:text-6xl mb-4 text-white">Ministérios</h1>
           <p className="text-xl text-gray-100 max-w-2xl mx-auto">
             Descubra como você pode servir e crescer através de nossos diversos ministérios
