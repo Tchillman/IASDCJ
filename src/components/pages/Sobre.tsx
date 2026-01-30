@@ -5,24 +5,34 @@ import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 export function Sobre() {
   const leaders = [
     {
-      name: 'Pr. João Silva',
+      name: 'Pr. Isaac Manuel',
       role: 'Pastor Principal',
-      image: 'https://images.unsplash.com/photo-1588033527872-330aa4b5fe36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMHBlb3BsZSUyMGNodXJjaCUyMHdvcnNoaXB8ZW58MXx8fHwxNzYzMjkzOTA1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: '/src/assets/pastorisaac.jfif',
     },
     {
-      name: 'Maria Santos',
-      role: 'Líder de Jovens',
+      name: 'Hernani Calunga',
+      role: 'Ancião Cordenador',
       image: 'https://images.unsplash.com/photo-1511551348638-75d95b7d416e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaWJsZSUyMHN0dWR5JTIweW91dGh8ZW58MXx8fHwxNzYzMjkzOTA1fDA&ixlib=rb-4.1.0&q=80&w=1080',
     },
     {
-      name: 'Pedro Costa',
-      role: 'Diretor de Música',
-      image: 'https://images.unsplash.com/photo-1745852738233-bbd0df06c279?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaHVyY2glMjBjaG9pciUyMHNpbmdpbmd8ZW58MXx8fHwxNzYzMjkwODU1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      name: 'Dicanasio Jafete',
+      role: 'Ancião',
+      image: '/src/assets/Dicanasio.jfif',
     },
     {
-      name: 'Ana Ferreira',
+      name: 'Aires Tomé',
+      role: 'Ministério Pessoal',
+      image: '/src/assets/AiresTome.jfif',
+    },
+     {
+      name: 'Paulo Facata',
       role: 'Escola Sabatina',
       image: 'https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcGVuJTIwYmlibGV8ZW58MXx8fHwxNzYzMjkzOTA2fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    },
+      {
+      name: 'Genesio Da Costa',
+      role: 'Técnico de Som',
+      image: '/src/assets/GenesioDaCosta.jfif',
     },
   ];
 

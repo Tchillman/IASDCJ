@@ -88,15 +88,24 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <MapPin className="w-5 h-5 text-[#00C2D1] mt-0.5 flex-shrink-0" />
-                <span className="text-sm">Luanda, Angola</span>
+                <span className="text-sm">Muculusso, Luanda</span>
               </li>
               <li className="flex items-start gap-2">
+                
                 <Phone className="w-5 h-5 text-[#00C2D1] mt-0.5 flex-shrink-0" />
-                <span className="text-sm">+244 XXX XXX XXX</span>
+                <a href="+244 943 254 456" >
+                <span className="text-sm">+244 943 254 456</span>
+                </a>
+              
+                
               </li>
               <li className="flex items-start gap-2">
+            
                 <Mail className="w-5 h-5 text-[#00C2D1] mt-0.5 flex-shrink-0" />
-                <span className="text-sm">contato@iajcluanda.ao</span>
+                <a href="iasdjcdeluanda@gmail.com" >
+                <span className="text-sm"> iasdjcdeluanda@gmail.com </span>
+                 </a>
+                
               </li>
             </ul>
 
@@ -105,7 +114,7 @@ export function Footer() {
               <h4 className="text-[#FFC145] mb-3">Redes Sociais</h4>
               <div className="flex gap-4">
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/share/16X7BBakVu/?mibextid=wwXIfr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-[#1E90FF] rounded-full flex items-center justify-center hover:bg-[#4DA6FF] transition-colors"
@@ -113,7 +122,7 @@ export function Footer() {
                   <Facebook className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/iasdcjovem?igsh=cDVncGN6YTY5dmE="
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-[#1E90FF] rounded-full flex items-center justify-center hover:bg-[#4DA6FF] transition-colors"
@@ -121,7 +130,7 @@ export function Footer() {
                   <Instagram className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://youtube.com"
+                  href="https://youtube.com/@iasdcentraldeluanda?si=6zCAX1BiYjET3RnF"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-[#1E90FF] rounded-full flex items-center justify-center hover:bg-[#4DA6FF] transition-colors"

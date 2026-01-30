@@ -113,7 +113,7 @@ export function Contato() {
                 <p className="text-gray-700 mb-4">Siga-nos nas redes sociais e fique por dentro de tudo!</p>
                 <div className="flex gap-4">
                   <a
-                    href="https://facebook.com"
+                    href="https://www.facebook.com/share/16X7BBakVu/?mibextid=wwXIfr"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-[#1E90FF] rounded-full flex items-center justify-center hover:bg-[#4DA6FF] transition-colors"
@@ -121,7 +121,7 @@ export function Contato() {
                     <Facebook className="w-6 h-6 text-white" />
                   </a>
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/iasdcjovem?igsh=cDVncGN6YTY5dmE="
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-[#1E90FF] rounded-full flex items-center justify-center hover:bg-[#4DA6FF] transition-colors"
@@ -129,7 +129,7 @@ export function Contato() {
                     <Instagram className="w-6 h-6 text-white" />
                   </a>
                   <a
-                    href="https://youtube.com"
+                    href="https://youtube.com/@iasdcentraldeluanda?si=6zCAX1BiYjET3RnF"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-[#1E90FF] rounded-full flex items-center justify-center hover:bg-[#4DA6FF] transition-colors"
