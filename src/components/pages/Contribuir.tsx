@@ -93,17 +93,44 @@ export function Contribuir() {
                 <CardContent className="space-y-4">
                   <div className="bg-[#E6F3FF] p-6 rounded-lg">
                     <p className="text-sm text-gray-600 mb-2">Banco:</p>
-                    <p className="text-[#003A70] mb-4">Banco Exemplo de Angola</p>
+                    <p className="text-[#003A70] mb-4">Banco Angolano de Investimento - BAI</p>
                     
                     <p className="text-sm text-gray-600 mb-2">IBAN:</p>
-                    <p className="text-[#003A70] mb-4">AO06 0000 0000 0000 0000 0000 0</p>
+                    <p className="text-[#003A70] mb-4">AO06 0040 0000 3978 7472 1010 8</p>
+
+                     <p className="text-sm text-gray-600 mb-2">Banco:</p>
+                    <p className="text-[#003A70] mb-4">Banco de Fomento Angola - BFA</p>
+                    
+                    <p className="text-sm text-gray-600 mb-2">IBAN:</p>
+                    <p className="text-[#003A70] mb-4">AO06 0006 0000 7781 1347 3011 9</p>
+
+                    <p className="text-sm text-gray-600 mb-2">Referência:</p>
+                    <p className="text-[#003A70]">Dízimos</p>
+                    <br />
+
+                    <hr className='my-6 border-2'/>
+                    <br />
+
+                    <p className="text-sm text-gray-600 mb-2">Banco:</p>
+                    <p className="text-[#003A70] mb-4">Banco de Poupança e Credito - BPC</p>
+                    
+                    <p className="text-sm text-gray-600 mb-2">IBAN:</p>
+                    <p className="text-[#003A70] mb-4">AO06 0010 0001 0001 1151 0113 0</p>
+
+                    <p className="text-sm text-gray-600 mb-2">Referência:</p>
+                    <p className="text-[#003A70]">Ofertas, doações e contribuições</p>
                     
                     <p className="text-sm text-gray-600 mb-2">Titular:</p>
                     <p className="text-[#003A70] mb-4">Igreja Adventista Jovem Central de Luanda</p>
+
+                     <h3 className="text-[#003A70] mb-2">E-mail</h3>
+                    <a href="iasdjcdeluanda@gmail.com" >
+                <span className=" text-gray-600"> iasdjcdeluanda@gmail.com </span>
+                 </a>
                     
-                    <p className="text-sm text-gray-600 mb-2">Referência:</p>
-                    <p className="text-[#003A70]">Dízimos e Ofertas</p>
+                    
                   </div>
+
                   <Button className="w-full bg-[#1E90FF] hover:bg-[#4DA6FF] text-white">
                     Copiar Dados Bancários
                   </Button>

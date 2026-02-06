@@ -12,22 +12,62 @@ export function Sobre() {
     {
       name: 'Hernani Calunga',
       role: 'Ancião Cordenador',
-      image: 'https://images.unsplash.com/photo-1511551348638-75d95b7d416e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaWJsZSUyMHN0dWR5JTIweW91dGh8ZW58MXx8fHwxNzYzMjkzOTA1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: '/src/assets/HC.jpg',
+    },
+     {
+      name: 'Vunge',
+      role: 'Ancião ',
+      image: '/src/assets/.jpg',
+    },
+     {
+      name: 'Nando',
+      role: 'Ancião ',
+      image: '/src/assets/.jpg',
     },
     {
       name: 'Dicanasio Jafete',
       role: 'Ancião',
       image: '/src/assets/Dicanasio.jfif',
     },
+      {
+      name: 'Geovani Graça',
+      role: 'Chefe do Diaconos',
+      image: '/src/assets/.jfif',
+    },
+      {
+      name: 'Helça',
+      role: 'Chefe do Diaconos',
+      image: '/src/assets/.jfif',
+    },
     {
       name: 'Aires Tomé',
-      role: 'Ministério Pessoal',
+      role: 'Dr. Escola Sabatina',
       image: '/src/assets/AiresTome.jfif',
     },
      {
+      name: 'Josane Chicumba',
+      role: 'Dra. Escola Sabatina',
+      image: '/src/assets/Josane.jfif',
+    },
+     {
+      name: 'Ruth Deia',
+      role: 'Sec. Escola Sabatina',
+      image: '/src/assets/.jfif',
+    },
+     {
       name: 'Paulo Facata',
-      role: 'Escola Sabatina',
-      image: 'https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcGVuJTIwYmlibGV8ZW58MXx8fHwxNzYzMjkzOTA2fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      role: 'Ministerio Pessoal',
+      image: '/src/assets/Facata.jfif',
+    },
+      {
+      name: 'Roberto lukoki',
+      role: 'Ministerio Pessoal',
+      image: '/src/assets/.jfif',
+    },
+     {
+      name: 'Palmira Reais',
+      role: 'Ministerio Pessoal',
+      image: '/src/assets/.jfif',
     },
       {
       name: 'Genesio Da Costa',
@@ -161,7 +201,7 @@ export function Sobre() {
                   <ImageWithFallback
                     src={leader.image}
                     alt={leader.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover bg-center"
                   />
                 </div>
                 <CardHeader className="text-center">

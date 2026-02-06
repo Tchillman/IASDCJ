@@ -36,7 +36,7 @@ export function Header() {
             to="/"
             className="flex items-center gap-3 group">
             <img
-              src="/src/assets/adventist-symbol--denim.svg"
+              src="/src/assets/adventist-symbol--white.svg"
               alt="Igreja Adventista Jovem Central de Luanda"
               width={60}
               height={60}
@@ -124,11 +124,12 @@ export function Header() {
               }`}>
               Contato
             </Link>
-            <Link
+              <Link
               to="/contribuir"
               className="bg-[#FFC145] text-[#003A70] px-4 py-2 rounded-lg hover:bg-[#FFDA5A] transition-colors">
               Contribuir
             </Link>
+           
           </nav>
 
           {/* Mobile Menu Button */}

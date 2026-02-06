@@ -47,7 +47,7 @@ export function Contato() {
                   <div>
                     <h3 className="text-[#003A70] mb-2">Localização</h3>
                     <p className="text-gray-600">
-                      Rua Exemplo, Nº 123
+                      Rua. Rei Katyavala, Nº 99
                       <br />
                       Luanda, Angola
                     </p>
@@ -78,11 +78,11 @@ export function Contato() {
                   </div>
                   <div>
                     <h3 className="text-[#003A70] mb-2">E-mail</h3>
-                    <p className="text-gray-600">
-                      contato@iajcluanda.ao
-                      <br />
-                      secretaria@iajcluanda.ao
-                    </p>
+                    <a href="iasdjcdeluanda@gmail.com" >
+                <span className=" text-gray-600"> iasdjcdeluanda@gmail.com </span>
+                 </a>
+                
+                   
                   </div>
                 </CardContent>
               </Card>

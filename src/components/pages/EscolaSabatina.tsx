@@ -47,9 +47,9 @@ export function EscolaSabatina() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#003A70] to-[#1E90FF] opacity-90 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#003A70] to-[#1E90FF] opacity-90 z-10" />
         <ImageWithFallback
-          src="https://images.unsplash.com/photo-1511551348638-75d95b7d416e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaWJsZSUyMHN0dWR5JTIweW91dGh8ZW58MXx8fHwxNzYzMjkzOTA1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+          src="/src/assets/imgEscola.jpg"
           alt="Estudo bíblico"
           className="absolute inset-0 w-full h-full object-cover"
         />
