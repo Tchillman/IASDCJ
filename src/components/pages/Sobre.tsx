@@ -124,7 +124,7 @@ export function Sobre() {
         <div className="container mx-auto px-4">
           <h2 className="text-[#003A70] mb-12 text-center">Missão, Visão e Valores</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="border-t-4 border-t-[#00C2D1]">
+            <Card className="border-t-4 border-t-[#1E90FF]">
               <CardHeader>
                 <div className="w-16 h-16 bg-[#E6F3FF] rounded-full flex items-center justify-center mx-auto mb-4">
                   <Target className="w-8 h-8 text-[#1E90FF]" />

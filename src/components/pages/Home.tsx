@@ -92,7 +92,7 @@ export function Home() {
         <ImageWithFallback
           src="/src/assets/home1.jfif"
           alt="Jovens em adoração"
-          className="absolute inset-0 w-full h-full bg-center bg-auto"
+          className="absolute inset-0 w-full h-full bg-center bg-auto md: bg-none"
         />
         <div className="relative z-20 text-center text-white px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl mb-6 text-white">
@@ -122,7 +122,7 @@ export function Home() {
       <section className="bg-[#E6F3FF] py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-block bg-[#00C2D1] text-white px-4 py-2 rounded-full mb-6">
+            <div className="inline-block bg-[#1E90FF] text-white px-4 py-2 rounded-full mb-6">
               Versículo do Dia
             </div>
             <p className="text-2xl md:text-3xl text-[#003A70] mb-4 italic">
@@ -139,7 +139,7 @@ export function Home() {
           <h2 className="text-center text-[#003A70] mb-12">Acesso Rápido</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link to="/ministerios">
-              <Card className="hover:shadow-xl transition-shadow cursor-pointer border-t-4 border-t-[#00C2D1] h-full">
+              <Card className="hover:shadow-xl transition-shadow cursor-pointer border-t-4 border-t-[#1E90FF] h-full">
                 <CardHeader>
                   <div className="w-12 h-12 bg-[#E6F3FF] rounded-full flex items-center justify-center mb-4">
                     <Users className="w-6 h-6 text-[#1E90FF]" />
@@ -155,7 +155,7 @@ export function Home() {
             </Link>
 
             <Link to="/escola-sabatina">
-              <Card className="hover:shadow-xl transition-shadow cursor-pointer border-t-4 border-t-[#00C2D1] h-full">
+              <Card className="hover:shadow-xl transition-shadow cursor-pointer border-t-4 border-t-[#1E90FF] h-full">
                 <CardHeader>
                   <div className="w-12 h-12 bg-[#E6F3FF] rounded-full flex items-center justify-center mb-4">
                     <BookOpen className="w-6 h-6 text-[#1E90FF]" />
@@ -171,7 +171,7 @@ export function Home() {
             </Link>
 
             <Link to="/oracao">
-              <Card className="hover:shadow-xl transition-shadow cursor-pointer border-t-4 border-t-[#00C2D1] h-full">
+              <Card className="hover:shadow-xl transition-shadow cursor-pointer border-t-4 border-t-[#1E90FF] h-full">
                 <CardHeader>
                   <div className="w-12 h-12 bg-[#E6F3FF] rounded-full flex items-center justify-center mb-4">
                     <Heart className="w-6 h-6 text-[#1E90FF]" />
@@ -187,7 +187,7 @@ export function Home() {
             </Link>
 
             <Link to="/agenda">
-              <Card className="hover:shadow-xl transition-shadow cursor-pointer border-t-4 border-t-[#00C2D1] h-full">
+              <Card className="hover:shadow-xl transition-shadow cursor-pointer border-t-4 border-t-[#1E90FF] h-full">
                 <CardHeader>
                   <div className="w-12 h-12 bg-[#E6F3FF] rounded-full flex items-center justify-center mb-4">
                     <Calendar className="w-6 h-6 text-[#1E90FF]" />
@@ -210,18 +210,13 @@ export function Home() {
         <div className="container mx-auto px-4">
           {/* Section Header */}
           <div className="text-center mb-12">
-            <div className="inline-block">
-              <Badge className="bg-[#00C2D1]/10 text-[#00C2D1] border-0 px-4 py-2 mb-4">
-                Agenda
-              </Badge>
-            </div>
             <h2 className="text-4xl md:text-5xl text-[#003A70] mb-4">
               Próximos Eventos
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-6">
               Junte-se a nós nos momentos que transformam vidas e fortalecem nossa comunidade
             </p>
-            <div className="w-24 h-1 bg-gradient-to-r from-[#FFC145] to-[#00C2D1] mx-auto rounded-full"></div>
+            <div className="w-24 h-1 bg-[#1E90FF] mx-auto rounded-full"></div>
           </div>
 
           {/* Events Grid */}

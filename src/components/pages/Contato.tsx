@@ -63,7 +63,7 @@ export function Contato() {
                   <div>
                     <h3 className="text-[#003A70] mb-2">Telefone / WhatsApp</h3>
                     <p className="text-gray-600">
-                      +244 XXX XXX XXX
+                      +244 943 254 456
                       <br />
                       +244 XXX XXX XXX
                     </p>

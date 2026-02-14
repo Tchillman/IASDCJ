@@ -14,7 +14,7 @@
   --secondary-foreground: #FFFFFF;
   --muted: #ececf0;
   --muted-foreground: #717182;
-  --accent: #00C2D1;
+  --accent:  #1E90FF;
   --accent-foreground: #FFFFFF;
   --destructive: #d4183d;
   --destructive-foreground: #ffffff;
@@ -47,10 +47,10 @@
   --btn-primary: #FF7a1a;
   --btn-primary-hover: #FFDA5A;
   --btn-secondary: #1E90FF;
-  --btn-secondary-hover: #4DA6FF;
+  --btn-secondary-hover: #1E90FF;
   --light-section: #F5F8FA;
   --youth-section: #E6F3FF;
-  --highlight: #00C2D1;
+  --highlight: #1E90FF;
 }
 
 .dark {

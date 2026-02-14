@@ -8,6 +8,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Sobre */}
           <div>
+
+            
             <h3 className="text-[#FFC145] mb-4">Igreja Adventista</h3>
             <p className="text-sm text-gray-300 mb-4">
               Jovem Central de Luanda

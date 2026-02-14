@@ -89,8 +89,15 @@ export function Sermoes() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#003A70] to-[#1E90FF] text-white py-20">
-        <div className="container mx-auto px-4 text-center">
+      <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#003A70] to-[#2f557f] opacity-90 z-10" />
+                <ImageWithFallback
+                  src="/src/assets/oracao.jfif"
+                  alt="Comunidade da igreja"
+                  className="absolute inset-0 w-full h-full  bg-auto  md:bg-none"
+                />
+       
+        <div className="relative z-20 text-center text-white px-4">
           <h1 className="text-5xl md:text-6xl mb-4 text-white">Sermões e Mensagens</h1>
           <p className="text-xl text-gray-100 max-w-2xl mx-auto">
             Assista ou ouça mensagens que edificam, inspiram e transformam vidas
