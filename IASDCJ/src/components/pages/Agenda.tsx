@@ -19,7 +19,7 @@ export function Agenda() {
       location: 'Templo Principal',
       category: 'Culto',
       description: 'Culto de adoração com a presença do Pr. João Silva',
-      attendees: 150,
+    
       image: 'https://images.unsplash.com/photo-1662151900393-97f6bc1567ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaHVyY2glMjB3b3JzaGlwJTIwc2VydmljZXxlbnwxfHx8fDE3NjMyMDQ1Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080',
     },
     {
@@ -30,7 +30,7 @@ export function Agenda() {
       location: 'Sala de Oração',
       category: 'Oração',
       description: 'Momento de intercessão e comunhão',
-      attendees: 50,
+  
       image: 'https://images.unsplash.com/photo-1652207069570-8307e991d3e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcmF5ZXIlMjBoYW5kcyUyMGNhbmRsZXxlbnwxfHx8fDE3NjMyOTczMTV8MA&ixlib=rb-4.1.0&q=80&w=1080',
     },
     {
@@ -41,7 +41,7 @@ export function Agenda() {
       location: 'Centro de Convenções',
       category: 'Evento',
       description: 'Três dias de renovação espiritual, workshops e comunhão',
-      attendees: 500,
+
       image: 'https://images.unsplash.com/photo-1617196288062-49bf97a38d9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMGNvbmZlcmVuY2UlMjBldmVudHxlbnwxfHx8fDE3NjMyOTczMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
     },
     {
@@ -52,7 +52,7 @@ export function Agenda() {
       location: 'Templo Principal',
       category: 'Louvor',
       description: 'Noite especial de música e oração com grupos vocais',
-      attendees: 200,
+
       image: 'https://images.unsplash.com/photo-1583869153539-251655e329de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b3JzaGlwJTIwbXVzaWMlMjBjb25jZXJ0fGVufDF8fHx8MTc2MzI5NzMxNnww&ixlib=rb-4.1.0&q=80&w=1080',
     },
     {
@@ -63,7 +63,7 @@ export function Agenda() {
       location: 'Comunidade do Sambizanga',
       category: 'Ação Social',
       description: 'Levando amor e alimento às famílias carentes',
-      attendees: 80,
+
       image: 'https://images.unsplash.com/photo-1673280401347-309363111070?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBzZXJ2aWNlJTIwZm9vZHxlbnwxfHx8fDE3NjMyOTczMTd8MA&ixlib=rb-4.1.0&q=80&w=1080',
     },
     {
@@ -74,7 +74,7 @@ export function Agenda() {
       location: 'Salas de Estudo',
       category: 'Estudo',
       description: 'Estudo bíblico em classes divididas por faixa etária',
-      attendees: 120,
+
       image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaWJsZSUyMHN0dWR5JTIwZ3JvdXB8ZW58MXx8fHwxNzYzMjkwNDczfDA&ixlib=rb-4.1.0&q=80&w=1080',
     },
   ];
@@ -105,9 +105,8 @@ export function Agenda() {
       title: 'Escola Sabatina',
       day: 'Sáb',
       time: '09:00 - 10:00',
-      location: 'Salas de Estudo',
+      location: 'Salão Jovem',
       category: 'Estudo',
-      attendees: 120,
       image: 'https://images.unsplash.com/photo-1670313860114-7c40617eaf0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzYWJiYXRoJTIwc2Nob29sJTIwYmlibGUlMjBzdHVkeXxlbnwxfHx8fDE3NjMyOTc4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
     },
     {
@@ -117,7 +116,6 @@ export function Agenda() {
       time: '10:30 - 12:00',
       location: 'Templo Principal',
       category: 'Culto',
-      attendees: 150,
       image: 'https://images.unsplash.com/photo-1662151900393-97f6bc1567ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaHVyY2glMjB3b3JzaGlwJTIwc2VydmljZXxlbnwxfHx8fDE3NjMyMDQ1Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080',
     },
     {
@@ -127,27 +125,24 @@ export function Agenda() {
       time: '16:00 - 18:00',
       location: 'Salão de Eventos',
       category: 'Evento',
-      attendees: 100,
       image: 'https://images.unsplash.com/photo-1717201611909-0f75ee9b0b1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHByb2dyYW0lMjBjaHVyY2h8ZW58MXx8fHwxNjMyOTc4MTd8MA&ixlib=rb-4.1.0&q=80&w=1080',
     },
     {
       id: 4,
       title: 'Reunião de Oração',
       day: 'Qua',
-      time: '19:00 - 20:30',
-      location: 'Sala de Oração',
+      time: '18:00 - 19:30',
+      location: 'Salão Central',
       category: 'Oração',
-      attendees: 50,
       image: 'https://images.unsplash.com/photo-1623096939009-cb651b7700f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaHVyY2glMjBwcmF5ZXIlMjBtZWV0aW5nfGVufDF8fHx8MTc2MzI5NzgxNnww&ixlib=rb-4.1.0&q=80&w=1080',
     },
     {
       id: 5,
       title: 'Ensaio do Coral',
-      day: 'Dom',
-      time: '15:00 - 17:00',
-      location: 'Templo Principal',
+      day: 'Ter, Qui',
+      time: '17:00 - 19:00',
+      location: 'Salão jovem',
       category: 'Louvor',
-      attendees: 30,
       image: 'https://images.unsplash.com/photo-1746169801389-51290391a548?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaG9pciUyMHJlaGVhcnNhbCUyMHNpbmdpbmd8ZW58MXx8fHwxNzYzMjk3ODE2fDA&ixlib=rb-4.1.0&q=80&w=1080',
     },
   ];
@@ -209,7 +204,7 @@ export function Agenda() {
                     </div>
                     <div className="flex items-center gap-2 text-sm text-gray-600">
                       <Users className="w-4 h-4" style={{ color: getCategoryColor(event.category) }} />
-                      <span>{event.attendees} participantes</span>
+                     
                     </div>
                   </div>
                 </CardHeader>
@@ -288,7 +283,7 @@ export function Agenda() {
                     </div>
                     <div className="flex items-center gap-2 text-sm text-gray-600">
                       <Users className="w-4 h-4" style={{ color: getCategoryColor(event.category) }} />
-                      <span>{event.attendees} participantes</span>
+                      
                     </div>
                   </div>
                 </CardHeader>

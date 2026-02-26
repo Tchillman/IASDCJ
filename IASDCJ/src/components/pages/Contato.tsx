@@ -47,9 +47,9 @@ export function Contato() {
                   <div>
                     <h3 className="text-[#003A70] mb-2">Localização</h3>
                     <p className="text-gray-600">
-                      Rua. Rei Katyavala, Nº 99
-                      <br />
-                      Luanda, Angola
+                     Maculusso, Rua. Rei Katyavala, Nº 99
+Luanda, Angola
+                    
                     </p>
                   </div>
                 </CardContent>
@@ -65,7 +65,7 @@ export function Contato() {
                     <p className="text-gray-600">
                       +244 943 254 456
                       <br />
-                      +244 XXX XXX XXX
+                      +244 935 446 786
                     </p>
                   </div>
                 </CardContent>
@@ -95,7 +95,7 @@ export function Contato() {
                   <div>
                     <h3 className="text-[#003A70] mb-2">Horário de Atendimento</h3>
                     <div className="text-gray-600 space-y-1">
-                      <p>Segunda a Sexta: 09:00 - 17:00</p>
+                      <p>Segunda a Sexta: 08:00 - 15:00</p>
                       <p>Sábado: 08:30 - 13:00</p>
                       <p>Domingo: Fechado</p>
                     </div>
@@ -204,13 +204,28 @@ export function Contato() {
                     />
                   </div>
 
+
+                  <a href="mailto:iasdjcdeluanda@gmail.com" >
+                    
                   <Button
                     type="submit"
                     className="w-full bg-[#FFC145] hover:bg-[#FFDA5A] text-[#003A70]"
+                   
+                    
                   >
-                    <Send className="w-4 h-4 mr-2" />
+                    
+                       <Send className="w-4 h-4 mr-2" />
                     Enviar Mensagem
+
+                    
+
                   </Button>
+
+                    
+                  </a>
+
+                  
+
                 </form>
               </CardContent>
             </Card>

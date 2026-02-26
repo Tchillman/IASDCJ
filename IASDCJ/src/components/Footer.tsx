@@ -78,7 +78,7 @@ export function Footer() {
                 <Clock className="w-5 h-5 text-[#00C2D1] mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-sm">Quarta-feira - Reunião de Oração</p>
-                  <p className="text-sm text-gray-300">19:00 - 20:30</p>
+                  <p className="text-sm text-gray-300">18:00 - 19:30</p>
                 </div>
               </div>
             </div>
@@ -90,14 +90,17 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <MapPin className="w-5 h-5 text-[#00C2D1] mt-0.5 flex-shrink-0" />
-                <span className="text-sm">Muculusso, Luanda</span>
+                <span className="text-sm">Maculusso, Rua. Rei Katyavala, Nº 99
+Luanda, Angola</span>
               </li>
               <li className="flex items-start gap-2">
                 
                 <Phone className="w-5 h-5 text-[#00C2D1] mt-0.5 flex-shrink-0" />
-                <a href="+244 943 254 456" >
-                <span className="text-sm">+244 943 254 456</span>
+                <a href="tel:++244 943 254 456">
+                  <span className="text-sm">+244 943 254 456</span>
                 </a>
+                
+                
               
                 
               </li>

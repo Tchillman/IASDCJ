@@ -11,10 +11,10 @@ export function Home() {
   const upcomingEvents = [
     {
       id: 1,
-      title: 'Congresso de Jovens 2025',
+      title: 'Culto de ação de graças 2026',
       date: '2025-01-20',
       time: '09:00',
-      location: 'Centro de Convenções',
+      location: 'Salão Jovem',
       category: 'Evento',
       description: 'Três dias de renovação espiritual, workshops e comunhão',
       attendees: 500,
@@ -31,17 +31,7 @@ export function Home() {
       attendees: 200,
       image: 'https://images.unsplash.com/photo-1553404954-7858899788e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b3JzaGlwJTIwbXVzaWMlMjBwcmFpc2V8ZW58MXx8fHwxNzYzMjk3NjI1fDA&ixlib=rb-4.1.0&q=80&w=1080',
     },
-    {
-      id: 3,
-      title: 'Ação Social - Distribuição de Alimentos',
-      date: '2025-11-30',
-      time: '08:00',
-      location: 'Comunidade do Sambizanga',
-      category: 'Ação Social',
-      description: 'Levando amor e alimento às famílias carentes',
-      attendees: 80,
-      image: 'https://images.unsplash.com/photo-1760992004210-44a502a2872d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBzZXJ2aWNlJTIwdm9sdW50ZWVyc3xlbnwxfHx8fDE3NjMyMTI2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080',
-    },
+   
   ];
 
   const getCategoryColor = (category: string) => {

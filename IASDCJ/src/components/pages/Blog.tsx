@@ -1,6 +1,7 @@
 import { Clock, User, Tag } from 'lucide-react';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
+import { Button } from '../ui/button';
 import { Badge } from '../ui/badge';
 import { useState } from 'react';
 
@@ -175,9 +176,20 @@ export function Blog() {
               placeholder="Seu e-mail"
               className="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1E90FF]"
             />
-            <button className="bg-[#FFC145] hover:bg-[#FFDA5A] text-[#003A70] px-8 py-3 rounded-lg transition-colors">
-              Inscrever
-            </button>
+
+            <a href="mailto:iasdjcdeluanda@gmail.com">
+              <Button
+                    type="submit"
+                                className="bg-[#FFC145] hover:bg-[#FFDA5A] text-[#003A70] px-8 py-5 rounded-lg transition-colors"  
+                              >
+                                 Inscrever
+            
+                  </Button>
+
+            </a>
+
+            
+          
           </div>
         </div>
       </section>

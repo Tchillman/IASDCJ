@@ -165,12 +165,7 @@ export function Ministerios() {
                         </ul>
                       </CardContent>
                     </Card>
-                    <Button
-                      className="mt-6 hover:bg-[#4DA6FF]"
-                      style={{ backgroundColor: ministry.color }}
-                    >
-                      Quero Participar
-                    </Button>
+                   
                   </div>
                 </div>
               );
@@ -187,9 +182,12 @@ export function Ministerios() {
             Cada pessoa tem dons únicos. Venha descobrir como você pode fazer a diferença através
             de nossos ministérios.
           </p>
-          <Button className="bg-[#FFC145] hover:bg-[#FFDA5A] text-[#003A70] px-8 py-6">
+          <a href="tel:+244 943 254 456">
+             <Button className="bg-[#FFC145] hover:bg-[#FFDA5A] text-[#003A70] px-8 py-6">
             Entre em Contato
           </Button>
+          </a>
+         
         </div>
       </section>
     </div>
