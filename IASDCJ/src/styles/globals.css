@@ -44,13 +44,30 @@
   --header-bg: #003A70;
   --header-text: #FFFFFF;
   --header-hover: #4DA6FF;
-  --btn-primary: #FF7a1a;
+  --btn-primary: #ff7a1a;
   --btn-primary-hover: #FFDA5A;
   --btn-secondary: #1E90FF;
   --btn-secondary-hover: #1E90FF;
   --light-section: #F5F8FA;
   --youth-section: #E6F3FF;
   --highlight: #1E90FF;
+  
+  /* Responsividade - Breakpoints */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+  
+  /* Spacing responsivo - Mobile First */
+  --spacing-mobile: 1rem;
+  --spacing-tablet: 1.5rem;
+  --spacing-desktop: 2rem;
+  
+  /* Container padding */
+  --container-padding-mobile: 1rem;
+  --container-padding-tablet: 1.5rem;
+  --container-padding-desktop: 2rem;
 }
 
 .dark {
@@ -141,6 +158,13 @@
   --color-light-section: var(--light-section);
   --color-youth-section: var(--youth-section);
   --color-highlight: var(--highlight);
+  
+  /* Breakpoints */
+  --breakpoint-sm: var(--breakpoint-sm);
+  --breakpoint-md: var(--breakpoint-md);
+  --breakpoint-lg: var(--breakpoint-lg);
+  --breakpoint-xl: var(--breakpoint-xl);
+  --breakpoint-2xl: var(--breakpoint-2xl);
 }
 
 @layer base {
@@ -150,6 +174,238 @@
 
   body {
     @apply bg-background text-foreground;
+    
+    /* Melhorias de responsividade para o body */
+    width: 100%;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Container responsivo global */
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--container-padding-mobile);
+    padding-right: var(--container-padding-mobile);
+  }
+  
+  @media (min-width: 640px) {
+    .container {
+      max-width: 640px;
+      padding-left: var(--container-padding-tablet);
+      padding-right: var(--container-padding-tablet);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+      padding-left: var(--container-padding-tablet);
+      padding-right: var(--container-padding-tablet);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1024px;
+      padding-left: var(--container-padding-desktop);
+      padding-right: var(--container-padding-desktop);
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  @media (min-width: 1536px) {
+    .container {
+      max-width: 1536px;
+    }
+  }
+  
+  /* Grid responsivo padrão */
+  .responsive-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 640px) {
+    .responsive-grid {
+      gap: 1.25rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .responsive-grid {
+      gap: 1.5rem;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .responsive-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .responsive-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* Classes utilitárias responsivas */
+  .responsive-padding {
+    padding: var(--spacing-mobile);
+  }
+  
+  @media (min-width: 768px) {
+    .responsive-padding {
+      padding: var(--spacing-tablet);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .responsive-padding {
+      padding: var(--spacing-desktop);
+    }
+  }
+  
+  /* Textos responsivos */
+  .responsive-heading-1 {
+    font-size: 1.875rem;
+    line-height: 1.2;
+  }
+  
+  @media (min-width: 640px) {
+    .responsive-heading-1 {
+      font-size: 2.25rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .responsive-heading-1 {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .responsive-heading-1 {
+      font-size: 3.75rem;
+    }
+  }
+  
+  .responsive-heading-2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  @media (min-width: 640px) {
+    .responsive-heading-2 {
+      font-size: 1.875rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .responsive-heading-2 {
+      font-size: 2.25rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .responsive-heading-2 {
+      font-size: 3rem;
+    }
+  }
+  
+  .responsive-text {
+    font-size: 0.875rem;
+  }
+  
+  @media (min-width: 640px) {
+    .responsive-text {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .responsive-text {
+      font-size: 1.125rem;
+    }
+  }
+  
+  /* Imagens responsivas */
+  img, video, iframe {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Flexbox responsivo */
+  .responsive-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .responsive-flex {
+      flex-direction: row;
+      gap: 1.5rem;
+    }
+  }
+  
+  /* Cards responsivos */
+  .responsive-card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .responsive-card {
+      margin-bottom: 1.25rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .responsive-card {
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  /* Overflow handling */
+  .overflow-safe {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Touch-friendly buttons */
+  button, 
+  [role="button"],
+  .clickable {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  @media (hover: hover) {
+    button:hover,
+    [role="button"]:hover {
+      cursor: pointer;
+    }
+  }
+  
+  /* Esconder scrollbar em elementos que precisam de scroll mas sem poluir */
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
   }
 }
 
@@ -162,30 +418,69 @@
       font-size: var(--text-2xl);
       font-weight: var(--font-weight-medium);
       line-height: 1.5;
+      
+      /* Responsividade para h1 */
+      @media (min-width: 640px) {
+        font-size: var(--text-3xl);
+      }
+      @media (min-width: 768px) {
+        font-size: var(--text-4xl);
+      }
+      @media (min-width: 1024px) {
+        font-size: var(--text-5xl);
+      }
     }
 
     h2 {
       font-size: var(--text-xl);
       font-weight: var(--font-weight-medium);
       line-height: 1.5;
+      
+      @media (min-width: 640px) {
+        font-size: var(--text-2xl);
+      }
+      @media (min-width: 768px) {
+        font-size: var(--text-3xl);
+      }
+      @media (min-width: 1024px) {
+        font-size: var(--text-4xl);
+      }
     }
 
     h3 {
       font-size: var(--text-lg);
       font-weight: var(--font-weight-medium);
       line-height: 1.5;
+      
+      @media (min-width: 640px) {
+        font-size: var(--text-xl);
+      }
+      @media (min-width: 768px) {
+        font-size: var(--text-2xl);
+      }
     }
 
     h4 {
       font-size: var(--text-base);
       font-weight: var(--font-weight-medium);
       line-height: 1.5;
+      
+      @media (min-width: 640px) {
+        font-size: var(--text-lg);
+      }
+      @media (min-width: 768px) {
+        font-size: var(--text-xl);
+      }
     }
 
     p {
       font-size: var(--text-base);
       font-weight: var(--font-weight-normal);
       line-height: 1.5;
+      
+      @media (max-width: 640px) {
+        font-size: 0.875rem;
+      }
     }
 
     label {
@@ -198,16 +493,151 @@
       font-size: var(--text-base);
       font-weight: var(--font-weight-medium);
       line-height: 1.5;
+      
+      @media (max-width: 640px) {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+      }
     }
 
     input {
       font-size: var(--text-base);
       font-weight: var(--font-weight-normal);
       line-height: 1.5;
+      
+      @media (max-width: 640px) {
+        font-size: 0.875rem;
+      }
     }
+  }
+}
+
+/* Animações suaves para responsividade */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Ajustes para dispositivos muito pequenos */
+@media (max-width: 480px) {
+  :root {
+    --font-size: 14px;
+    --spacing-mobile: 0.75rem;
+    --container-padding-mobile: 0.75rem;
+  }
+}
+
+/* Ajustes para tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  :root {
+    --font-size: 15px;
+  }
+}
+
+/* Ajustes para desktops */
+@media (min-width: 1024px) {
+  :root {
+    --font-size: 16px;
+  }
+}
+
+/* Melhorias de touch para mobile */
+@media (hover: none) and (pointer: coarse) {
+  button, 
+  [role="button"],
+  a,
+  .clickable {
+    min-height: 48px;
+    min-width: 48px;
+  }
+  
+  input, select, textarea {
+    font-size: 16px; /* Previne zoom automático em iOS */
   }
 }
 
 html {
   font-size: var(--font-size);
+}
+
+/* Classes auxiliares para responsividade */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Responsive tables */
+@media (max-width: 768px) {
+  .responsive-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Breakpoint utilities for Tailwind compatibility */
+@layer utilities {
+  .sm\:hidden {
+    @media (min-width: 640px) {
+      display: none;
+    }
+  }
+  
+  .md\:hidden {
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+  
+  .lg\:hidden {
+    @media (min-width: 1024px) {
+      display: none;
+    }
+  }
+  
+  .xl\:hidden {
+    @media (min-width: 1280px) {
+      display: none;
+    }
+  }
+  
+  .sm\:block {
+    @media (min-width: 640px) {
+      display: block;
+    }
+  }
+  
+  .md\:block {
+    @media (min-width: 768px) {
+      display: block;
+    }
+  }
+  
+  .lg\:block {
+    @media (min-width: 1024px) {
+      display: block;
+    }
+  }
+  
+  .xl\:block {
+    @media (min-width: 1280px) {
+      display: block;
+    }
+  }
+}
+
+/* Suporte para dark mode responsivo */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    /* Dark mode automático mantém suas variáveis dark */
+  }
 }

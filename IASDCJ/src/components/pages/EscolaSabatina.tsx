@@ -144,7 +144,7 @@ export function EscolaSabatina() {
         </div>
       </section>
 
-      {/* Recursos */}
+      {/* Recursos 
       <section className="py-16 bg-[#E6F3FF]">
         <div className="container mx-auto px-4">
           <h2 className="text-[#003A70] mb-8 text-center">Recursos para Estudo</h2>
@@ -196,7 +196,7 @@ export function EscolaSabatina() {
             </Card>
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* Call to Action */}
       <section className="py-16">

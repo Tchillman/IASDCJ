@@ -127,24 +127,7 @@ export function Agenda() {
       category: 'Evento',
       image: 'https://images.unsplash.com/photo-1717201611909-0f75ee9b0b1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHByb2dyYW0lMjBjaHVyY2h8ZW58MXx8fHwxNjMyOTc4MTd8MA&ixlib=rb-4.1.0&q=80&w=1080',
     },
-    {
-      id: 4,
-      title: 'Reunião de Oração',
-      day: 'Qua',
-      time: '18:00 - 19:30',
-      location: 'Salão Central',
-      category: 'Oração',
-      image: 'https://images.unsplash.com/photo-1623096939009-cb651b7700f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaHVyY2glMjBwcmF5ZXIlMjBtZWV0aW5nfGVufDF8fHx8MTc2MzI5NzgxNnww&ixlib=rb-4.1.0&q=80&w=1080',
-    },
-    {
-      id: 5,
-      title: 'Ensaio do Coral',
-      day: 'Ter, Qui',
-      time: '17:00 - 19:00',
-      location: 'Salão jovem',
-      category: 'Louvor',
-      image: 'https://images.unsplash.com/photo-1746169801389-51290391a548?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaG9pciUyMHJlaGVhcnNhbCUyMHNpbmdpbmd8ZW58MXx8fHwxNzYzMjk3ODE2fDA&ixlib=rb-4.1.0&q=80&w=1080',
-    },
+
   ];
 
   return (

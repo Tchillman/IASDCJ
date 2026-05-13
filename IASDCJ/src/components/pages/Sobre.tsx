@@ -20,7 +20,7 @@ export function Sobre() {
       image: '/src/assets/.jpg',
     },
      {
-      name: 'Nando',
+      name: 'Fernando Quikuxi',
       role: 'Ancião ',
       image: '/src/assets/.jpg',
     },
@@ -67,7 +67,7 @@ export function Sobre() {
      {
       name: 'Palmira Reais',
       role: 'Ministerio Pessoal',
-      image: '/src/assets/.jfif',
+      image: '/src/assets/Palmira2.jfif',
     },
       {
       name: 'Genesio Da Costa',
